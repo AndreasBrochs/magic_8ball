@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace magic_8ball
 {
@@ -6,7 +10,9 @@ namespace magic_8ball
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Phrases.WelcomePhrases();
+
+            Console.Read();
         }
     }
 }
