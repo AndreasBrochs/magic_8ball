@@ -35,7 +35,7 @@ namespace magic_8ball
             string userQuestion = Console.ReadLine();
             string eightBallAnswer = Answers.RandomAnswers();
             string composedAsnwer = $"you asked \"{userQuestion}\" and the 8ball answer \"{eightBallAnswer}\" ";
-
+            Console.WriteLine();
             Console.WriteLine(composedAsnwer);
 
 

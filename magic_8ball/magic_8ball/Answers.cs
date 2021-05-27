@@ -39,6 +39,7 @@ namespace magic_8ball
 
             Random random = new Random();
             string answer = allAnswers[random.Next(allAnswers.Length)];
+            Loading.LoadingScreen();
             return answer;
         }
     }
